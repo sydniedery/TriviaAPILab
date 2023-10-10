@@ -1,0 +1,15 @@
+1: I chose a trivia API. My console application will ask you trivia questions and tell you if you were correct. The API has options for trivia categories so the user will have an option to select the category. 
+2: https://api-ninjas.com/api/trivia is the website. It just has a bunch of different trivia questions. The API will return the information “category”, “question”, and “answer”. As a developer I will interact with it by reading and saving the json information stored on the api. This information will be saved as an object of the class QuestionClass.
+3:
+QuestionClass to store the information from the API in. 
+Menu method called in the main method that provides the user with category options. 
+Method with switch statement to handle the choice in category. Input will be the result from the menu method. Each case will call the same method, but the parameter will indicate what the category. Return string of formatted parameter to choose category. 
+Call above method and save result. Now you can call the API with the info gathered above. Result will be something like this:
+[
+  {
+    "category": "music",
+    "question": "Who Was The Midnight Rider",
+    "answer": "Paul Davidson"
+  }
+]
+Deserialize result and save as QuestionClass object. Output the category and question. Read response to trivia question and compare to the answer stored in the QuestionClass. If the user is correct, tell them, if they are incorrect, tell them and let them know the correct answer.
