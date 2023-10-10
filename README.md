@@ -1,4 +1,8 @@
 # TriviaAPILab
+
+# Problem: Couldn't figure out how to get my key added because it is an extra header
+# Solution: Had to rearrange the order of my header statements. 
+
 # Problem: .ReadAsAsync was not showing as a known method
 # Solution: Installed NuGet Package Microsoft.AspNet.WebApi.Client
 
